@@ -138,6 +138,7 @@ test.describe('@smoke - Auth - Generate Token', () => {
         expect(typeof body.token).toBe('string');
         expect(body.token).toMatch(/^[a-zA-Z0-9]+$/);
         expect(body.token.length).toBeGreaterThanOrEqual(10);
+        
     });
 
 });
