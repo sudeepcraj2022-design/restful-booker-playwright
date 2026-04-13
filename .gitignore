@@ -1,0 +1,16 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+# Added for security
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
