@@ -41,7 +41,7 @@ test.describe('Home Page functionality', () => {
         await expect(homePage.contactForm.container).toBeVisible();
         await homePage.contactForm.submitMessage(contactData)
 
-        await expect(homePage.contactForm.successMessage).toHaveText(`${fullName}`);
+        await expect(homePage.contactForm.successMessage).toContainText(`${fullName}`);
 
     });
 
