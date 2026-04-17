@@ -7,7 +7,7 @@ static getFirstName = () => faker.person.firstName();
 static getLastName = () => faker.person.lastName();
 static getFullName = () => faker.person.fullName();
 static getEmail = () => faker.internet.email();
-static getPhoneNumber = () => faker.string.numeric(10);
+static getPhoneNumber = () => faker.string.numeric(11);
 static getPassword = () => faker.internet.password();
 static getRandomCountry = () => faker.location.country();
 static getRandomState = () => faker.location.state();
